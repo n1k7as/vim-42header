@@ -11,7 +11,7 @@ This fork only changes the name of the environment variables since the $USER var
 * Updates filename line when changed
 * Updates "Updated" line only when buffer is changed
 * Works with all formats that default supports
-* Binds to `F1` for easy access
+* Binds to `F4` for easy access
 * Overrides `:Stdheader` for school vim installs
 
 Also, don't forget to set your `$FT_USER` and `$FT_MAIL` variables, marvin lives!
@@ -23,7 +23,7 @@ Copy `42header.vim` to your `~/.vim/after/plugin/` folder. You're set!
 
 ### pathogen
 ```
-git clone https://github.com/pbondoer/vim-42header.git --recursive && mv -v vim-42header ~/.vim/bundle/
+git clone https://github.com/n1k7as/vim-42header.git --recursive && mv -v vim-42header ~/.vim/bundle/
 ```
 
 ### vim-plug
