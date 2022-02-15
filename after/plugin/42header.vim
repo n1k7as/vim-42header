@@ -158,5 +158,5 @@ endfunction
 
 " Bind command and shortcut
 command! Stdheader call s:stdheader ()
-nmap <f1> <esc>:Stdheader<CR>
+nmap <f4> <esc>:Stdheader<CR>
 autocmd BufWritePre * call s:update ()
