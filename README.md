@@ -1,6 +1,8 @@
 # vim-42header
 a (better) vim header for 42 projects
 
+This fork only changes the name of the environment variables since the $USER variable clashes with the username in zsh
+
 ![fancy header image](http://i.imgur.com/WTscMvi.png)
 
 ## Features
@@ -12,7 +14,7 @@ a (better) vim header for 42 projects
 * Binds to `F1` for easy access
 * Overrides `:Stdheader` for school vim installs
 
-Also, don't forget to set your `$USER` and `$MAIL` variables, marvin lives!
+Also, don't forget to set your `$FT_USER` and `$FT_MAIL` variables, marvin lives!
 
 ## Usage 
 
@@ -29,7 +31,7 @@ If you use vim-plug or any other plugin manager, simply add this line to your
 plugin initialization:
 
 ```vim
-Plug 'pbondoer/vim-42header'
+Plug 'n1k7as/vim-42header'
 ```
 
 ## Why?
